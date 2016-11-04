@@ -1,0 +1,19 @@
+{
+  "name": "rite-fill",
+  "version": "1.0.0",
+  "description": "variation on a pad",
+  "main": "mepad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ge01/rite-fill.git"
+  },
+  "author": "ge01 <ge01@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ge01/rite-fill/issues"
+  },
+  "homepage": "https://github.com/ge01/rite-fill#readme"
+}
