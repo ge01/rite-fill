@@ -6,7 +6,7 @@ $ npm install rite-fill
 
 # Usage
 me('camel', 5)
-// => "camel     "
+// => "camel....."
 
 me('camel', 4)
-// => "camel    "
+// => "camel...."
