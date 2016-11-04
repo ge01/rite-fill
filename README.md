@@ -9,4 +9,4 @@ me('camel', 5)
 // => "camel....."
 
 me('camel', 4)
-// => "camel...."
+// => "camel____"
