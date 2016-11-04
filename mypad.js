@@ -1,7 +1,21 @@
 //module.exports = 'Hello world';
 
-module.exports = leftpad;
+module.exports = me;
 
+function me(string, padint) {
+  var holdWord = [];
+  holdWord = string.split('');
+  //console.log(holdWord);
+  for(var i=0; i < padint; i++){
+    holdWord.push("0");
+  }
+
+  stringWord = holdWord.join('');
+  return stringWord;
+
+  //stringWord = holdWord.join('');
+}
+/*
 function leftpad (str, len, ch) {
   //str = String(str);
 
@@ -13,26 +27,4 @@ function leftpad (str, len, ch) {
 
   return str;
 }
-
-
-
-
-/*
-module.exports = function(str, padcount, callback) {
-  var padded_string = str;
-  for(var i=0; i<padcount; i++){
-    padded_string += "0";
-  }
-  callback(null, padded_string);
-};
-*/
-
-/*
-module.export = leftpad;
-
-  var padstring = str;
-  for(var i = 0; i < count; i++){
-    padstring += " ";
-  }
-    callback(null, padstring);
 */

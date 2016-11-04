@@ -1,9 +1,9 @@
 //var msg = require('./Message.js');
 //console.log(msg);
 
-var leftpad = require('./mypad.js');
+var me = require('./mypad.js');
 
-console.log(leftpad('camel',5, 1));
+console.log(me('camel',5));
 //myPad();
 /*
 console.log(frog("hello", 5, function(err, result){
